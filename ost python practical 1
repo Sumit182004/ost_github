@@ -1,0 +1,17 @@
+#Program job salary
+ 
+ empno = int(input("Enter the phone no. "))
+ename = str(input("Enter the name "))
+salary = str(input("Enter the salary you want "))
+job = (input("Enter the your job type "))
+
+if 'project officer' in job :
+    print("Your salary is ",2500000+2500000//7,"RS")
+
+elif 'exec engineer' in job :
+    print("Your salary is ",2500000+2500000//7,"RS")
+
+elif 'exec assistant' in job :
+    print("Your salary is ",800000+800000//3,"RS")
+else:
+    print("No such job is Available")
