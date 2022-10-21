@@ -1,0 +1,23 @@
+
+
+#program - Age checking for driving
+
+age = int(input("Please enetr your Age "))
+name = str(input("Please enter your Name "))
+gender = str(input("Please enter your Gender \t\t(Enter mr / ms)"))
+
+if  gender == "mr" and age >= 18 :
+    print("Hello",gender,name,"you are Allowed to Drive") 
+     
+elif gender == "ms" and age >= 18 :
+     print("Hello",gender,name,"you are Allowed to Drive")
+
+elif gender == "male" and age < 18 :
+    print("Hello",gender,name," sorry you are not Allowed to Drive \ncome back when you are 18 !")
+
+elif gender == "female" and age < 18 :
+    print("Hello",gender,name," sorry you are not Allowed to Drive \ncome back when you are 18 !")
+
+else :
+    print("Please Enter your Age and Gender properly !")
+
